@@ -40,7 +40,7 @@ defmodule Bowser.MixProject do
 
   defp deps do
     [
-      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.5.0", only: [:dev, :test], runtime: false},
       {:jason, "~> 1.1"},
       {:mcping, git: "https://github.com/kevinkjt2000/mcping-elixir.git"},
       {:nostrum, "~> 0.4"},
